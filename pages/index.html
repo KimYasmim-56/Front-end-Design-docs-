@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02</title>
+</head>
+
+<body>
+    <h1>Trabalhando com algumas estruturas básicas </h1>
+    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing. </h2>
+    <p>Lorem <b><i>ipsum</i></b> <u>dolor</u> sit, <em>amet</em>
+        <stromg>consectetur</stromg> adipisicing elit. Nisi temporibus vitae quia recusandae delectus repellendus!
+    </p>
+    <hr>
+    <h2 id="topo"> Iniciando com algumas listas</h2>
+    <!-- Aqui vai uma lista não ordenada-->
+    <ul type="add_circle_outline"><!-- opçôes: disc, circle e square-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quas illo assumenda at molestiae, voluptas unde laborum ipsum hic rem sint aperiam doloremque temporibus a dolorum doloribus quam optio architecto
+    </ul>
+    <!-- Aqui vai uma lista ordenada-->
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <ol type="A" start="5 ">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ol>
+        <!-- Aqui vai uma lista de definição -->
+        <dl>
+            <dt>HTML</dt>
+            <dd>Lorem ipsum dolor sit.</dd>
+            <dt>CSS</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur.</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd></dd>
+            <dt></dt>
+            <dd></dd>
+            <dt></dt>
+            <dd></dd>
+            <dt></dt>
+            <dd></dd>
+            <dt></dt>
+            <dd></dd>
+        </dl>
+
+        <hr>
+        <h2>Trabalhando com tabelas</h2>
+
+        <table.border="2">
+            <tr>
+                <th colspan="3">Usuários</th>
+            </tr>
+
+            <tr><!-- isso é uma linha -->
+                <th>nome</th> <!-- é uma coluna -->
+                <th>idade</th>
+                <th>time</th>
+            </tr>
+            <tr>
+                <td>ome:</td>
+                <td>34</td>
+                <td>Brasil</td>
+            </tr>
+            <tr>
+                <td>jlia</td>
+                <td>13</td>
+                <td>Brasil</td>
+            </tr>
+
+        </table.border=>
+        <hr>
+        <a href="pages/contato.html" title="Acesse a Página de Contato">Contato</a>
+        <a href="https://www.fiap.com.br" target="_black">Site da Fiap</a>
+
+        <h1>Aula 03</h1>
+
+        <h2 id="topo">continuando as tags estruturais</h2>
+        <form action="">
+            <h2>cadastro Pessoal</h2>
+            <p>Diga o seu nome:</p>
+
+            <label for="nome_sobrenome">Nome e Sobrenome:</label>
+            <input type="text" name="nome_sobrenome"placeholder="Nome sobrenome">
+
+            <p>Selecione o seu genero:</p>
+            <input type="radio" name="genero" value="M">
+             <label for="genero">Masculino</label>
+            
+            <input type="radio" name="genero" value="F">
+             <label for="genero">Feminino</label>
+            
+            <input type="radio" name="genero" value="O">
+             <label for="genero">Outros</label>
+
+             <p>Selecione quais meios de transporte usas</p>
+
+             <input type="checkbox" name="transporte" value="carro">
+             <label for="transporte">Carro</label><br>
+             <input type="checkbox" name="transporte" value="metro">
+             <label for="transporte">Metro</label><br>
+             <input type="checkbox" name="transporte" value="onibus">
+             <label for="transporte">Ônibus</label><br>
+             <input type="checkbox" name="transporte" value="bike">
+             <label for="transporte">Bike</label><br>
+            
+             <p>Selecione o seu tamanho de camisa:</p>
+
+             <select name="tamanho"></option>
+                 <option value="g">Grande</option>
+                 <option value="m">Médio</option>
+                 <option value="p">Pequeno
+             </select>
+
+            <br><br>
+
+             <textarea name="opiniao" placeholder="Digite sua opinião"></textarea>
+
+             <br><br>
+
+            <fieldset>
+                <legend>Aceite os termos</legend>
+                <input type="checkbox" name="aceite" value="ok" required>
+                <label for="aceite">Aceito os termos</label>
+            </fieldset>
+
+            <br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+
+        </form>
+
+        <img src="pages/pizza.webp" alt="pizza" width="200px">
+</body>
+</html>
